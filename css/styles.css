@@ -1,0 +1,43 @@
+#navbar {
+    top: 2em;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+#navbar span {
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 3%;
+    font-size: 15px;
+}
+
+#navbar a {  
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nome {
+    color: #4dc7a6;
+    font-size: 20px;
+}
+
+.login {
+    color: #4dc7a6;
+    bottom: 8%;
+    padding-left: 3%;
+}
+
+.contactos {
+    color: #575757;
+}
+
+/* Barra Responsiva */
+@media screen and (max-width:680px) {
+    #navbar span {
+        display: none;
+    }
+}
